@@ -1,0 +1,14 @@
+{
+  "name": "devops",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "cd front && npm i && cd ../back && npm i && cd ..",
+    "start": "docker-compose build && docker-compose up"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
